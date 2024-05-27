@@ -1,8 +1,8 @@
 package DesignPatterns.Creational.AbstractFactory.Characters;
 
 public interface CharacterFactory {
-  Character createWarrior(String name);
-  Character createMage(String name);
-  Character createRogue(String name);
+  public Character createWarrior(String name);
+  public Character createMage(String name);
 
+  public Character createRogue(String name);
 }

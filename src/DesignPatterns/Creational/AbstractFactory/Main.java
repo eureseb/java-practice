@@ -26,5 +26,7 @@ public class Main {
     elfMage.attack();
     orcRogue.attack();
 
+
+    // I am not happy with this implementation. I think there is too much coupling between CharacterFactory and FactionFactory
   }
 }
