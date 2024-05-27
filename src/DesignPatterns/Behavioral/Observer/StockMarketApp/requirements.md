@@ -16,7 +16,7 @@ Requirements
 * Real-Time Updates: Ensure that price updates are propagated to all subscribed clients in real-time.
 * Testability: Design the system to be easily testable, allowing for unit tests to verify the functionality of the observer pattern implementation.
 
-##Implementation Plan
+## Implementation Plan
 1. Define the Subject Interface: Create an interface for the subject that allows for attaching, detaching, and notifying observers.
 2. Define the Observer Interface: Create an interface for observers that defines the update method.
 3. Implement Concrete Subject: Implement the Stock class that maintains the list of observers and notifies them of price changes.

@@ -1,7 +1,5 @@
 package DesignPatterns.Behavioral.Observer.WeatherApp;
 
-import DesignPatterns.Behavioral.Observer.Observer;
-
 public class StatisticsDisplay implements Observer {
   private float temperature;
   private float maxTemp = Float.MIN_VALUE;

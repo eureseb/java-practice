@@ -1,7 +1,5 @@
 package DesignPatterns.Behavioral.Observer.WeatherApp;
 
-import DesignPatterns.Behavioral.Observer.Observer;
-import DesignPatterns.Behavioral.Observer.Subject;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,5 +28,6 @@ public class WeatherStation implements Subject {
   }
   public void setTemperature(float temperature) {
     this.temperature = temperature;
+    notifyObserver();
   }
 }

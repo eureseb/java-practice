@@ -1,7 +1,5 @@
 package DesignPatterns.Behavioral.Observer.WeatherApp;
 
-import DesignPatterns.Behavioral.Observer.Observer;
-
 public class TemperatureDisplay implements Observer {
   private float temperature;
 

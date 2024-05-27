@@ -14,6 +14,5 @@ public class WeatherStationApp {
     weatherStation.setTemperature(27.8f);
     weatherStation.setTemperature(23.4f);
 
-    weatherStation.notifyObserver();
   }
 }
